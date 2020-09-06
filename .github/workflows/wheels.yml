@@ -16,7 +16,7 @@ jobs:
           - name: Build wheels on MacOS
             os: macos-latest
           - name: Build wheels on Windows
-            os: windows-latest
+            os: windows-2016
 
     name: ${{ matrix.name }}
     runs-on: ${{ matrix.os }}
